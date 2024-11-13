@@ -1,6 +1,6 @@
 # vuejak
 
-> aplikasi vuejak
+> aplikasi deltavue
 
 ## Build Setup
 
