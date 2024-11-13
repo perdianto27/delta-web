@@ -1,6 +1,5 @@
-# vuejak
-
-> aplikasi deltavue
+<p align="center" ><img height="400px" src="https://github.com/perdianto27/delta-web/blob/master/src/assets/deltavue.jpg"> </p>
+<br>
 
 ## Build Setup
 
