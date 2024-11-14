@@ -36,7 +36,7 @@ const openRoutes = ['login'];
 router.beforeEach((to, from, next) => {
   if(openRoutes.includes(to.name)){
     next()
-  }else if(localStorage.getItem('token') == 'vuejak'){
+  }else if(localStorage.getItem('access_token')){
     next()
   }else{
     next({ name: 'login' })

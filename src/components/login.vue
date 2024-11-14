@@ -43,9 +43,7 @@ export default {
           .then(function(response) {
             if (response.data.data) {
               console.log("response.data", response.data.data);
-              let currentToken = "vuejak";
               const accessToken = response.data.data.access_token;
-              localStorage.setItem("token", currentToken);
               localStorage.setItem("access_token", accessToken);
               localStorage.setItem("username", response.data.data.username);
               self.$router.push({
